@@ -63,6 +63,7 @@ h1 {
 }
 .left p, button {
     color: #e5e7eb;
+    padding-right: 26px;
 }
 button {
     background-color: #3882f6;
@@ -75,4 +76,28 @@ img {
     width: auto;
     height: 290.25px;
 }
+
+/* gallery of tiles*/
+
+div.gallery {
+    height: 500px;
+    background-color: #e5e7eb;
+    color:#1F2937;
+    display: flex;
+    flex-direction: column;
+
+}
+
+div.gallery h2 {
+    height: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div.tilecollection {
+    flex-grow: 1;
+}
+
 
