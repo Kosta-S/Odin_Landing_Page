@@ -53,7 +53,8 @@ div.left {
     height: 290.25px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    gap: 1em;
+    /*justify-content: space-between;*/
 }
 
 h1 {
@@ -80,8 +81,8 @@ img {
 /* gallery of tiles*/
 
 div.gallery {
-    height: 500px;
-    background-color: #e5e7eb;
+    height: 550px;
+    background-color: #f9faf8;
     color:#1F2937;
     display: flex;
     flex-direction: column;
@@ -89,7 +90,9 @@ div.gallery {
 }
 
 div.gallery h2 {
-    height: 33%;
+    font-size: 36px;
+    font-weight: bolder;
+    height: 25%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -98,6 +101,100 @@ div.gallery h2 {
 
 div.tilecollection {
     flex-grow: 1;
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    align-items: flex-start;
 }
+
+div.tile {
+        display: flex;
+        flex-wrap: wrap;
+        flex-basis: 250px;
+
+    }
+
+    div.tile > img {
+       max-width: 250px;
+        height: auto;
+        border: 4px solid #3882f6;
+        border-radius: 24px;
+    }
+    div.tile > p {
+        text-align: center;
+        padding-top: 1em;
+    }
+
+    /*the quote part*/
+    div.quote{
+        background-color: #e5e7eb;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div.text {
+        width: 70%;
+        color: #1F2937;
+        font-size: 37px;
+    }
+    p.signature {
+        width:max-content;
+        margin-left: auto;
+        font-size: 25px;
+        font-weight: 800;
+        padding-top: 1em;
+    }
+
+    /* call for action part */
+    div.call {
+        height: 300px;
+        background-color: #f9faf8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    div.blue {
+        width: 70%;
+        background-color: #3882f6;
+        padding: 25px 50px;
+        color: #f9faf8;
+        border-radius: 23px;
+    }
+    div.container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    div.content {
+        width: 80%;
+    }
+    .content h2 {
+        padding-bottom: 16px;
+    }
+
+    div.container button {
+        color:#f9faf8;
+        font-size: 1.2em;
+        border: 2px solid #f9faf8;
+
+    }
+
+/* footer */
+footer {
+    height: 70px;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p {
+    width:fit-content;
+}
+
+
+
 
 
