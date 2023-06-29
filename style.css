@@ -54,7 +54,6 @@ div.left {
     display: flex;
     flex-direction: column;
     gap: 1em;
-    /*justify-content: space-between;*/
 }
 
 h1 {
@@ -170,6 +169,7 @@ div.tile {
 
     div.content {
         width: 80%;
+        text-align: center;
     }
     .content h2 {
         padding-bottom: 16px;
